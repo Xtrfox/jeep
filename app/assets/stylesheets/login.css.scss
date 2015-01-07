@@ -1,0 +1,47 @@
+.signup-or-separator {
+  text-align: center;
+
+  .text {
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0;
+    padding: 8px;
+  }
+
+  hr {
+    margin: -16px auto 10px auto;
+    width: 90%;
+  }
+}
+
+#login_panel {
+  .ng-invalid.ng-dirty {
+    border-color: #ce3f4e !important;
+  }
+
+  .ng-valid.ng-dirty {
+    border-color: #008000 !important;
+  }
+  .block {
+    display: block;
+  }
+  .tab {
+    display: table;
+  }
+  .text-muted {
+    font-size: 12px;
+  }
+}
+// #login, #signup {
+//   .col-xs-8 {
+//     @include breakpoint(micro) {
+//       width: 90%;
+//     }
+//     @include breakpoint(nano) {
+//       width: 90%;
+//     }
+//   }
+//   .panel {
+//     max-width: 390px;
+//   }
+// }
